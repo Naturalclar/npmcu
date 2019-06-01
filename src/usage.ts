@@ -6,7 +6,9 @@ const { bold, inverse } = chalk;
 const npmrc = inverse(".npmrc");
 const npmrcname = inverse(".npmrc.[name]");
 const usage = `
-${heading("npmcu")}
+${heading("npmcu:")}
+
+  A cli tool to manage multiple ${npmrc} files with a single command
 ${line}
 ${heading("usage:")}
 

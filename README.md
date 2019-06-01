@@ -1,6 +1,6 @@
 # npmcu
 
-Manage multiple `.npmrc` files with a single command
+A cli tool manage multiple `.npmrc` files with a single command
 
 ## Installation
 
