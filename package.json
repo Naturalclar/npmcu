@@ -1,6 +1,6 @@
 {
   "name": "npmcu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli to quickly switch npmrc",
   "license": "MIT",
   "author": "Jesse Katsumata",
