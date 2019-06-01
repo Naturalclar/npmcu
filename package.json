@@ -10,7 +10,8 @@
     "npmcu": "./bin/run"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -w",
+    "prepare": "tsc"
   },
   "devDependencies": {
     "@types/node": "^12.0.4",
