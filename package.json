@@ -1,9 +1,17 @@
 {
   "name": "npmcu",
   "version": "0.0.2",
-  "description": "cli to quickly switch npmrc",
+  "description": "A cli tool manage multiple `.npmrc` files with a single command",
+  "homepage": "https: //github.com/Naturalclar/npmcu#readme",
+  "repository": "https://github.com/Naturalclar/npmcu.git",
   "license": "MIT",
   "author": "Jesse Katsumata",
+  "files": [
+    "lib",
+    "package.json",
+    "bin",
+    "README.md"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
@@ -13,11 +21,11 @@
     "build": "tsc -w",
     "prepare": "tsc"
   },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
   "devDependencies": {
     "@types/node": "^12.0.4",
     "typescript": "^3.5.1"
-  },
-  "dependencies": {
-    "chalk": "^2.4.2"
   }
 }
