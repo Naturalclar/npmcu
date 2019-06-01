@@ -2,7 +2,7 @@
   "name": "npmcu",
   "version": "0.0.3",
   "description": "A cli tool manage multiple `.npmrc` files with a single command",
-  "homepage": "https: //github.com/Naturalclar/npmcu#readme",
+  "homepage": "https://github.com/Naturalclar/npmcu#readme",
   "repository": "https://github.com/Naturalclar/npmcu.git",
   "license": "MIT",
   "author": "Jesse Katsumata",
