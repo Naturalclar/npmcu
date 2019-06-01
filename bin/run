@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+const usage = require("../lib/usage");
+const { npmcu, list, create } = require("../lib");
+
+if (process.argv.length < 3) {
+  usage();
+}
+
+const args = process.argv.slice(2);
+
+switch (args[0]) {
+  case "-l": {
+    list();
+    return;
+  }
+  case "-n": {
+    const name = args[1];
+    if (!name) {
+      usage();
+      return;
+    }
+    create(name);
+    return;
+  }
+  case "-h": {
+    usage();
+  }
+  default: {
+    npmcu(args[0]);
+  }
+}
